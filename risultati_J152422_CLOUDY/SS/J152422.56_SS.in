@@ -1,0 +1,11 @@
+title J152422.56 SS logM=9.0 logmdot=-1.8
+table SED "J152422.56_SS.sed"
+luminosity total 45.314854624
+radius 18.0000
+hden 10.0000
+stop column density 23.0000
+iterate
+save last lines intensity "J152422.56_SS.int" emergent column
+save last lines labels "J152422.56_SS.labels"
+database print
+print citation

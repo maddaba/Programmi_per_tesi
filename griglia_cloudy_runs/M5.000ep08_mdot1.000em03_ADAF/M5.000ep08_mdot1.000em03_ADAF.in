@@ -1,0 +1,12 @@
+title M=5.000000e+08 mdot=1.000000e-03 ADAF
+table SED "M5.000ep08_mdot1.000em03_ADAF.sed"
+luminosity total 41.193221123
+radius 18.0000
+hden 10.0000
+stop column density 23.0000
+covering factor 0.100000
+iterate
+save last lines intensity "M5.000ep08_mdot1.000em03_ADAF.int" emergent column all
+save last lines labels "M5.000ep08_mdot1.000em03_ADAF.labels"
+database print
+print citation

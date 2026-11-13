@@ -1,0 +1,12 @@
+title M=1.000000e+08 mdot=5.000000e-02 SS
+table SED "M1.000ep08_mdot5.000em02_SS.sed"
+luminosity total 44.813933013
+radius 18.0000
+hden 10.0000
+stop column density 23.0000
+covering factor 0.100000
+iterate
+save last lines intensity "M1.000ep08_mdot5.000em02_SS.int" emergent column all
+save last lines labels "M1.000ep08_mdot5.000em02_SS.labels"
+database print
+print citation

@@ -1,0 +1,12 @@
+title Test covering factor Cf=0.2
+table SED "test_cf_0.2.sed"
+luminosity total 45.114967331
+radius 18.0000
+hden 10.0000
+stop column density 23.0000
+covering factor 0.200000
+iterate
+save last lines intensity "test_cf_0.2.int" emergent column all
+save last lines labels "test_cf_0.2.labels"
+database print
+print citation
